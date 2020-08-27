@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">MyWisp</string>
+    <string name="tvWelcome">¡Bienvenido a MyWisp!</string>
+    <string name="btnOpenAddCustomersActivity">Agregar Nuevo Cliente</string>
+    <string name="btnOpenCustomersListActivity">Lista de Clientes</string>
+    <string name="btnOpenConsultCustomerActivity">Consultar Cliente</string>
+    <string name="btnOpenServicesListActivity">Planes de Servicio</string>
+
+
+    <string name="tvAddCustomer">Agregar Cliente</string>
+    <string name="txtId">Id</string>
+    <string name="txtFullname">Nombre Completo</string>
+    <string name="txtMunicipality">Municipio</string>
+    <string name="txtDepartment">Departamento</string>
+    <string name="txtAddress">Dirección</string>
+    <string name="txtPhone">Teléfono</string>
+    <string name="txtEmail">Correo Electrónico</string>
+    <string name="txtRemarks">Observaciones</string>
+    <string name="btnAddCustomer">Agregar Cliente</string>
+
+    <string name="tvConsultCustomer">Consultar Cliente</string>
+    <string name="btnSearchCustomer">Buscar</string>
+    <string name="btnUpdateCustomer">Actualizar</string>
+    <string name="btnDeleteCustomer">Eliminar</string>
+
+    <string name="tvCustomersList">Lista de Clientes</string>
+
+    <string name="tvCustomerDetails">Información del Cliente</string>
+    <string name="tvIdCustomerDetails">Id:</string>
+    <string name="tvFullnameCustomerDetails">Nombre Completo:</string>
+    <string name="tvMunicipalityCustomerDetails">Municipio:</string>
+    <string name="tvDepartmentCustomerDetails">Departamento:</string>
+    <string name="tvAddressCustomerDetails">Dirección:</string>
+    <string name="tvPhoneCustomerDetails">Teléfono:</string>
+    <string name="tvEmailCustomerDetails">E-mail:</string>
+    <string name="tvStatusCustomerDetails">Estado:</string>
+    <string name="tvRemarksCustomerDetails">Observaciones:</string>
+
+    <string name="tvAddService">Agregar Plan de Servicio</string>
+    <string name="txtNameService">Nombre</string>
+    <string name="txtPriceService">Precio</string>
+    <string name="txtDescriptionService">Descripción</string>
+    <string name="btnAddService">Agregar Servicio</string>
+
+    <string name="tvServicesList">Lista de Servicios</string>
+    <string name="title_activity_services_list">services_list</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="tvServicesDetails">Información del Servicio</string>
+    <string name="tvIdServiceDetails">Id:</string>
+    <string name="btnUpdateService">Actualizar</string>
+    <string name="btnDeleteService">Eliminar</string>
+
+    <string name="tvUpdateService">Actualizar Plan de Servicio</string>
+
+
+    <string name="btnInstalationsActivity">Instalaciones</string>
+    <string name="title_activity_instalation_list">instalation_list</string>
+    <string name="etSearchInstalation">Busca Aquí</string>
+    <string name="btnSearchInstalation">Buscar</string>
+
+    <string name="tvAddInstalation">Agregar Instalación</string>
+    <string name="dateInstalation">Fecha de Instalación:</string>
+    <string name="txtdateInstalation">Seleccione</string>
+    <string name="txtMaterialsInstalation">Materiales</string>
+    <string name="txtPlaceInstalation">Lugar de Instalación</string>
+    <string name="tvCustomerInstalation">Cliente Asociado: </string>
+    <string name="tvServiceInstalation">Plan de Servicio Asignado</string>
+    <string name="btnAddInstalation">Agregar Instalación</string>
+
+    <string name="tvInstalationDetails">INFORMACIÓN DE LA INSTALACIÓN</string>
+    <string name="tvServiceAssociatedInstalationDetails">INFORMACIÓN DEL SERVICIO</string>
+    <string name="tvCustomerAssociatedInstalationDetails">INFORMACIÓN DEL CLIENTE</string>
+    <string name="tvIdInstalationTitle">Id:</string>
+    <string name="tvDateInstalationTitle">Fecha de Instalación:</string>
+    <string name="tvMaterialsInstalationTitle">Materiales:</string>
+    <string name="tvPlaceInstalationTitle">Lugar de Instalación:</string>
+    <string name="tvIdServiceInstalationTitle">Id del Plan de Servicio:</string>
+    <string name="tvNameServiceInstalationTitle">Nombre:</string>
+    <string name="tvPriceServiceInstalationTitle">Precio:</string>
+    <string name="tvDescriptionServiceInstalationTitle">Descripción:</string>
+    <string name="tvIdCustomerTitle">Id del Cliente:</string>
+    <string name="tvFullnameCustomerTitle">Nombre:</string>
+    <string name="tvPhoneCustomerTitle">Teléfono:</string>
+    <string name="btnUpdateInstalationActivity">Actualizar</string>
+    <string name="btnDeleteInstalation">Eliminar</string>
+
+    <string name="tvUpdateInstalationTitle">Actualizar Instalación</string>
+
+
+</resources>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".instalation_details">
+
+    <ScrollView
+        android:layout_width="392dp"
+        android:layout_height="715dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvInstalationDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvInstalationDetails"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvIdInstalationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvIdInstalationTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvIdInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvDateInstalationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvDateInstalationTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDateInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvMaterialsInstalationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvMaterialsInstalationTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMaterialsInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvPlaceInstalationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvPlaceInstalationTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPlaceInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvEmpty1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvServiceAssociatedInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvServiceAssociatedInstalationDetails"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvIdServiceInstalationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvIdServiceInstalationTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvIdServiceInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvNameServiceInstalationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvNameServiceInstalationTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNameServiceInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvPriceServiceInstalationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvPriceServiceInstalationTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPriceServiceInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvDescriptionServiceInstalationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvDescriptionServiceInstalationTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDescriptionServiceInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvEmpty2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvCustomerAssociatedInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvCustomerAssociatedInstalationDetails"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvIdCustomerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvIdCustomerTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvIdCustomerInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvFullnameCustomerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvFullnameCustomerTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFullnameCustomerInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvPhoneCustomerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvPhoneCustomerTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPhoneCustomerInstalationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvEmpty3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnUpdateInstalationActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnUpdateInstalationActivity" />
+
+            <Button
+                android:id="@+id/btnDeleteInstalation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDeleteInstalation" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

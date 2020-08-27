@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mywisp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".update_instalation"></activity>
+        <activity android:name=".instalation_details" />
+        <activity android:name=".add_instalation" />
+        <activity
+            android:name=".instalation_list"
+            android:label="@string/title_activity_instalation_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".update_service" />
+        <activity android:name=".service_details" />
+        <activity
+            android:name=".services_list"
+            android:label="@string/title_activity_services_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".add_service" />
+        <activity android:name=".customer_details" />
+        <activity android:name=".customers_list" />
+        <activity android:name=".consult_customer" />
+        <activity android:name=".add_customer_activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

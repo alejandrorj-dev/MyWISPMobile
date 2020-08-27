@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnServices"
+        android:layout_width="271dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:onClick="OpenListServicesActivity"
+        android:text="@string/btnOpenServicesListActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSearchCustomer" />
+
+    <Button
+        android:id="@+id/btnAddCustomersActivity"
+        android:layout_width="271dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="244dp"
+        android:onClick="OpenAddCustomerActivity"
+        android:text="@string/btnOpenAddCustomersActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSearchCustomer"
+        android:layout_width="271dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:onClick="OpenConsultCustomerActivity"
+        android:text="@string/btnOpenConsultCustomerActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCustomers" />
+
+    <Button
+        android:id="@+id/btnCustomers"
+        android:layout_width="271dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:onClick="OpenCustomersListActivity"
+        android:text="@string/btnOpenCustomersListActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddCustomersActivity" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="342dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/tvWelcome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnInstalationsActivity"
+        android:layout_width="271dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:onClick="OpenListInstalationsActivity"
+        android:text="@string/btnInstalationsActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnServices" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
